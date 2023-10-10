@@ -2,7 +2,7 @@
 #include "Data.h"
 int main()
 {
-    map<string, vector<Hotel>> hotelsByLocation;
+    unordered_map<string, vector<Hotel>> hotelsByLocation;
 
     // Add some hotels and rooms with locations
     Hotels_Data(hotelsByLocation);
